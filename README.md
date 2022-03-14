@@ -67,11 +67,12 @@ Example function names
 Godoc uses a naming convention to associate an example function
 with a package-level identifier.
 
-````
+```
 func ExampleFoo()     // documents the Foo function or type
 func ExampleBar_Qux() // documents the Qux method of type Bar
 func Example()        // documents the package as a whole
-Following this convention, godoc displays the ExampleReverse example alongside the documentation for the Reverse function.
+Following this convention, godoc displays the ExampleReverse
+example alongside the documentation for the Reverse function.
 ```
 
 Multiple examples can be provided for a given identifier by using a
